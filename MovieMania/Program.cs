@@ -16,7 +16,7 @@ namespace MovieMania
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Invoice());
+            Application.Run(new Home());
         }
     }
 }

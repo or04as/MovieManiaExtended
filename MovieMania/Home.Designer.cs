@@ -239,6 +239,7 @@
             this.pboMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov11.TabIndex = 15;
             this.pboMov11.TabStop = false;
+            this.pboMov11.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov10
             // 
@@ -250,6 +251,7 @@
             this.pboMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov10.TabIndex = 14;
             this.pboMov10.TabStop = false;
+            this.pboMov10.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov8
             // 
@@ -261,6 +263,7 @@
             this.pboMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov8.TabIndex = 12;
             this.pboMov8.TabStop = false;
+            this.pboMov8.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov9
             // 
@@ -272,6 +275,7 @@
             this.pboMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov9.TabIndex = 13;
             this.pboMov9.TabStop = false;
+            this.pboMov9.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // panel3
             // 
@@ -301,6 +305,7 @@
             this.pboMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov3.TabIndex = 5;
             this.pboMov3.TabStop = false;
+            this.pboMov3.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov2
             // 
@@ -312,6 +317,7 @@
             this.pboMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov2.TabIndex = 4;
             this.pboMov2.TabStop = false;
+            this.pboMov2.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov7
             // 
@@ -323,6 +329,7 @@
             this.pboMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov7.TabIndex = 9;
             this.pboMov7.TabStop = false;
+            this.pboMov7.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov1
             // 
@@ -334,6 +341,7 @@
             this.pboMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov1.TabIndex = 3;
             this.pboMov1.TabStop = false;
+            this.pboMov1.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov0
             // 
@@ -345,6 +353,7 @@
             this.pboMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov0.TabIndex = 2;
             this.pboMov0.TabStop = false;
+            this.pboMov0.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov6
             // 
@@ -356,6 +365,7 @@
             this.pboMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov6.TabIndex = 8;
             this.pboMov6.TabStop = false;
+            this.pboMov6.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov4
             // 
@@ -367,6 +377,7 @@
             this.pboMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov4.TabIndex = 6;
             this.pboMov4.TabStop = false;
+            this.pboMov4.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboMov5
             // 
@@ -378,6 +389,7 @@
             this.pboMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboMov5.TabIndex = 7;
             this.pboMov5.TabStop = false;
+            this.pboMov5.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pnlNav
             // 
@@ -406,6 +418,7 @@
             this.btnRentals.TabIndex = 5;
             this.btnRentals.Text = "Rentals";
             this.btnRentals.UseVisualStyleBackColor = true;
+            this.btnRentals.Click += new System.EventHandler(this.NavigationButton_Click);
             // 
             // btnHome
             // 
@@ -421,6 +434,7 @@
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "Home";
             this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.NavigationButton_Click);
             // 
             // btnStatistics
             // 
@@ -436,6 +450,7 @@
             this.btnStatistics.TabIndex = 3;
             this.btnStatistics.Text = "Statistics";
             this.btnStatistics.UseVisualStyleBackColor = true;
+            this.btnStatistics.Click += new System.EventHandler(this.NavigationButton_Click);
             // 
             // btnBrowse
             // 
@@ -451,6 +466,7 @@
             this.btnBrowse.TabIndex = 1;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
+            this.btnBrowse.Click += new System.EventHandler(this.NavigationButton_Click);
             // 
             // pboLogo
             // 
@@ -587,6 +603,7 @@
             this.pboBrowseMov11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov11.TabIndex = 15;
             this.pboBrowseMov11.TabStop = false;
+            this.pboBrowseMov11.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov10
             // 
@@ -598,6 +615,7 @@
             this.pboBrowseMov10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov10.TabIndex = 14;
             this.pboBrowseMov10.TabStop = false;
+            this.pboBrowseMov10.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov8
             // 
@@ -609,6 +627,7 @@
             this.pboBrowseMov8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov8.TabIndex = 12;
             this.pboBrowseMov8.TabStop = false;
+            this.pboBrowseMov8.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov9
             // 
@@ -620,6 +639,7 @@
             this.pboBrowseMov9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov9.TabIndex = 13;
             this.pboBrowseMov9.TabStop = false;
+            this.pboBrowseMov9.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // panel8
             // 
@@ -649,6 +669,7 @@
             this.pboBrowseMov3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov3.TabIndex = 5;
             this.pboBrowseMov3.TabStop = false;
+            this.pboBrowseMov3.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov2
             // 
@@ -660,6 +681,7 @@
             this.pboBrowseMov2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov2.TabIndex = 4;
             this.pboBrowseMov2.TabStop = false;
+            this.pboBrowseMov2.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov7
             // 
@@ -671,6 +693,7 @@
             this.pboBrowseMov7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov7.TabIndex = 9;
             this.pboBrowseMov7.TabStop = false;
+            this.pboBrowseMov7.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov1
             // 
@@ -682,6 +705,7 @@
             this.pboBrowseMov1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov1.TabIndex = 3;
             this.pboBrowseMov1.TabStop = false;
+            this.pboBrowseMov1.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov0
             // 
@@ -693,6 +717,7 @@
             this.pboBrowseMov0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov0.TabIndex = 2;
             this.pboBrowseMov0.TabStop = false;
+            this.pboBrowseMov0.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov6
             // 
@@ -704,6 +729,7 @@
             this.pboBrowseMov6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov6.TabIndex = 8;
             this.pboBrowseMov6.TabStop = false;
+            this.pboBrowseMov6.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov4
             // 
@@ -715,6 +741,7 @@
             this.pboBrowseMov4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov4.TabIndex = 6;
             this.pboBrowseMov4.TabStop = false;
+            this.pboBrowseMov4.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboBrowseMov5
             // 
@@ -726,6 +753,7 @@
             this.pboBrowseMov5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pboBrowseMov5.TabIndex = 7;
             this.pboBrowseMov5.TabStop = false;
+            this.pboBrowseMov5.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // tabRentals
             // 
@@ -841,6 +869,7 @@
             this.btnHistoryRent0.TabIndex = 2;
             this.btnHistoryRent0.Text = "Rent Again";
             this.btnHistoryRent0.UseVisualStyleBackColor = false;
+            this.btnHistoryRent0.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboRentalHistory0
             // 
@@ -926,6 +955,7 @@
             this.btnHistoryRent1.TabIndex = 2;
             this.btnHistoryRent1.Text = "Rent Again";
             this.btnHistoryRent1.UseVisualStyleBackColor = false;
+            this.btnHistoryRent1.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboRentalHistory1
             // 
@@ -1011,6 +1041,7 @@
             this.btnHistoryRent2.TabIndex = 2;
             this.btnHistoryRent2.Text = "Rent Again";
             this.btnHistoryRent2.UseVisualStyleBackColor = false;
+            this.btnHistoryRent2.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboRentalHistory2
             // 
@@ -1096,6 +1127,7 @@
             this.btnHistoryRent3.TabIndex = 2;
             this.btnHistoryRent3.Text = "Rent Again";
             this.btnHistoryRent3.UseVisualStyleBackColor = false;
+            this.btnHistoryRent3.Click += new System.EventHandler(this.ShowRentalDialog);
             // 
             // pboRentalHistory3
             // 

@@ -279,6 +279,7 @@
             this.btnAddCustomer.Size = new System.Drawing.Size(35, 35);
             this.btnAddCustomer.TabIndex = 31;
             this.btnAddCustomer.UseVisualStyleBackColor = false;
+            this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
             // Rental
             // 

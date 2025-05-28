@@ -12,9 +12,26 @@ namespace MovieMania
 {
     public partial class Customer : Form
     {
-        public Customer()
+        string formType;
+        public Customer(string formTypeInput)
         {
             InitializeComponent();
+            formType = formTypeInput;
+
+            if (formType == "Add")
+            {
+                btnCreate.Visible = true;
+                btnDelete.Visible = false;
+                btnUpdate.Visible = false;
+            }
+            else if (formType == "Edit")
+            {
+                btnCreate.Visible = false;
+                btnDelete.Visible = true;
+                btnUpdate.Visible = true;
+            }
         }
+
+        
     }
 }

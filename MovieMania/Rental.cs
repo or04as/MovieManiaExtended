@@ -12,9 +12,16 @@ namespace MovieMania
 {
     public partial class Rental : Form
     {
-        public Rental()
+        int movieIdentifier;
+        public Rental(int movieID)
         {
             InitializeComponent();
+        }
+
+        private void btnAddCustomer_Click(object sender, EventArgs e)
+        {
+            Customer customerDialog = new Customer("Add");
+            customerDialog.ShowDialog();
         }
     }
 }
